@@ -136,7 +136,7 @@ drwx------ 3 root root 4096 Apr 14 08:14 systemd-private-c8b594543b954c10b9ad173
 ###Testing
 When testing our shell (hsh) works like this;
 
-** 1. In interactive mode:**
+1. In interactive mode:
 
 > $ ./hsh
 ($) /bin/ls
@@ -148,7 +148,7 @@ hsh main.c shell.c
 
 
 
-** 2. In non-interactive mode:**
+2. In non-interactive mode:
 
 ###### *Example 1*
 
@@ -199,8 +199,7 @@ Peer Project made within 15 days.
 
 
 
-[![Holberton school](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8g8Cvqw9Z7Rx9IHGq9gKYneeM1U4_KvUNTeaCBkX2L5pFE3Ihw-5uNGs9xPSmUb5kXA&usqp=CAU)](https://www.\
-holbertonschool.com/tn/en/ "Holberton school")
+[![Holberton school](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8g8Cvqw9Z7Rx9IHGq9gKYneeM1U4_KvUNTeaCBkX2L5pFE3Ihw-5uNGs9xPSmUb5kXA&usqp=CAU)]
 
 
 
