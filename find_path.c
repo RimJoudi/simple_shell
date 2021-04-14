@@ -42,7 +42,7 @@ char *append_pathcmd(char *cmd, char *directories)
 {
 	char *append = NULL;
 	size_t append_length;
-	
+
 	append_length = _strlen(cmd) + _strlen(directories);
 	append = malloc(sizeof(char) * append_length + 2);
 	if (append == NULL)
