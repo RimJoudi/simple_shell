@@ -107,32 +107,30 @@ To use our shell you simply need to:
 
 
 
-```
-vagrant@vagrant:~/simple_shell$ ./hsh
+> vagrant@vagrant:~/simple_shell$ ./hsh
 $ ls
-AUTHORS   built_in.c  find_path.c  hsh  parser_line.c  shell.h README.md  _getenv.c   execute.c   function.c   more_fun.c  readline.c shell  simple_shell.c
+AUTHORS    README.md~  built_in.c  find_path.c  hsh         parser_line.c  readline.c~  shell.h README.md  _getenv.c   execute.c   function.c   more_fun.c  readline.c shell        simple_shell.c
 $
-  ```
+
 
 
 ###### Example 2
 
-vagrant@vagrant:~/simple_shell$ ./hsh
-$ pwd
-/home/vagrant/simple_shell
-$ ^D
-vagrant@vagrant:~/simple_shell$
+> vagrant@vagrant:~/simple_shell$ ./hsh
+>  $ pwd
+>  /home/vagrant/simple_shell
+>   $ ^D
+
 
 ######Example 3
 
-  ```
-vagrant@vagrant:~/simple_shell$ ./hsh
+
+>   vagrant@vagrant:~/simple_shell$ ./hsh
 $ ls -l /tmp
 total 4
 drwx------ 3 root root 4096 Apr 14 08:14 systemd-private-c8b594543b954c10b9ad1732d559d671-systemd-resolved.service-SYzIKI
-$ ^D
-vagrant@vagrant:~/simple_shell$
-	   ```
+>  $ ^D
+
 
 
 ###Testing
@@ -140,16 +138,12 @@ When testing our shell (hsh) works like this;
 
 ** 1. In interactive mode:**
 
-```
-$ ./hsh
+> $ ./hsh
 ($) /bin/ls
 hsh main.c shell.c
 ($)
 ($) exit
  $
- ```
-
-
 
 
 
@@ -158,27 +152,26 @@ hsh main.c shell.c
 
 ###### *Example 1*
 
-```
-$ echo "/bin/ls" | ./hsh
+
+> $ echo "/bin/ls" | ./hsh
 hsh main.c shell.c test_ls_2
 $
 $ cat test_ls_2
 /bin/ls
 /bin/ls
 $
-	  ```
+
 
 
 ------------
 
 ###### *Example 2*
 
-```
-$ cat test_ls_2 | ./hsh
+>  $ cat test_ls_2 | ./hsh
 hsh main.c shell.c test_ls_2
 hsh main.c shell.c test_ls_2
-$
-	```
+$ $
+
 
 
 
@@ -204,8 +197,13 @@ Peer Project made within 15 days.
 * Maroua Alaya  - (https://github.com/maroua199525)
 
 
-[![Holberton school](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8g8Cvqw9Z7Rx9IHGq9gKYneeM1U4_KvUNTeaCBkX2L5pFE3Ihw-5uNGs9xPSmUb5kXA&usqp=CAU)](https://www.
+
+
+[![Holberton school](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8g8Cvqw9Z7Rx9IHGq9gKYneeM1U4_KvUNTeaCBkX2L5pFE3Ihw-5uNGs9xPSmUb5kXA&usqp=CAU)](https://www.\
 holbertonschool.com/tn/en/ "Holberton school")
+
+
+
 
 
 
