@@ -107,9 +107,10 @@ Examples:
 
 
 
-> vagrant@vagrant:~/simple_shell$ ./hsh
+vagrant@vagrant:~/simple_shell$ ./hsh
 
 $ ls
+
 AUTHORS   built_in.c  find_path.c  hsh   parser_line.c   shell.h  README.md  _getenv.c   execute.c   function.c   more_fun.c  readline.c     shell        simple_shell.c
 $
 
@@ -117,28 +118,30 @@ $
 
 ###### Example 2
 
-> vagrant@vagrant:~/simple_shell$ ./hsh
+ vagrant@vagrant:~/simple_shell$ ./hsh
 
->  $ pwd
+  $ pwd
 
->  /home/vagrant/simple_shell
+  /home/vagrant/simple_shell
 
->   $ ^D
+   $ ^D
 
 
 ######Example 3
 
 
->   vagrant@vagrant:~/simple_shell$ ./hsh
+ vagrant@vagrant:~/simple_shell$ ./hsh
 
 $ ls -l /tmp
 total 4
 drwx------ 3 root root 4096 Apr 14 08:14 systemd-private-c8b594543b954c10b9ad1732d559d671-systemd-resolved.service-SYzIKI
->  $ ^D
+$ ^D
 
 
 
-###Testing
+Testing
+
+
 When testing our shell (hsh) works like this;
 
 1. In interactive mode:
@@ -204,7 +207,7 @@ Peer Project made within 15 days.
 
 
 
-[![Holberton school](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8g8Cvqw9Z7Rx9IHGq9gKYneeM1U4_KvUNTeaCBkX2L5pFE3Ihw-5uNGs9xPSmUb5kXA&usqp=CAU)]
+![Holberton school](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8g8Cvqw9Z7Rx9IHGq9gKYneeM1U4_KvUNTeaCBkX2L5pFE3Ihw-5uNGs9xPSmUb5kXA&usqp=CAU)
 
 
 
