@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
-* parse_line - parses the input
+* parse_line - parser the line from the input
 * @line: string
 *@delim: the delimet
 *Return: array of string
