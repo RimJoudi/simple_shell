@@ -22,6 +22,10 @@ int main(void)
 			continue;
 		}
 		argv = parse_line(line, DELIMIT);
+		if (_strcmp(argv[0], "env") == 0)
+		{
+			print_env();
+		}
 		path_command(argv);
 	}
 	free(line);
