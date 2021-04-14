@@ -40,9 +40,9 @@ To use our shell you simply need to:
 
 `Ctrl+D`
 
-To compile the man page:
+- To compile the man page:
 
-$ man ./man_1_simple_shell
+`$ man ./man_1_simple_shell`
 
 
 ###List of allowed used functions and system calls
@@ -101,12 +101,8 @@ $ man ./man_1_simple_shell
 
 ### Annotations
 
-We have writen a [blog](https://joudirim93.medium.com/what-happens-when-you-type-ls-l-c-in-the-shell-8ed10196d711 "what happens when typing ls -l *.c and hit enter in shell") post describing what happens when typing ls -l *.c and hit Enter in  shell using examples and detailing all different processes.
+We have writen a [blog post](https://joudirim93.medium.com/what-happens-when-you-type-ls-l-c-in-the-shell-8ed10196d711 "what happens when typing ls -l *.c and hit enter in shell")  describing what happens when typing ls -l *.c and hit Enter in  shell using examples and detailing all different processes.
 feel free to check it.
-
-
-
-### Flowchart
 
 
 
@@ -151,6 +147,7 @@ vagrant@vagrant:~/simple_shell$ ./hsh
 $ cd
 $
 
+
 ###Testing
 When testing our shell (hsh) works like this;
 
@@ -158,35 +155,23 @@ When testing our shell (hsh) works like this;
 `
 
 
+```
 $ ./hsh
 ($) /bin/ls
 hsh main.c shell.c
 ($)
 ($) exit
  $
-
-
-- In non-interactive mode:
+ ```
 
 
 
- $ echo "/bin/ls" | ./hsh
-  hsh main.c shell.c test_ls_2
-   $
-    $ cat test_ls_2
-	 /bin/ls
-	  /bin/ls
-	   $
-	    $ cat test_ls_2 | ./hsh
-		 hsh main.c shell.c test_ls_2
 
 
 
 -  In non-interactive mode:
 
-
-
-
+```
  $ echo "/bin/ls" | ./hsh
   hsh main.c shell.c test_ls_2
    $
@@ -198,15 +183,21 @@ hsh main.c shell.c
 		 hsh main.c shell.c test_ls_2
 		  hsh main.c shell.c test_ls_2
 		   $
+		   ```
 
 
 
-####Our shell (hsh) support the following builtins we wrote :
+####Our shell (hsh) only  supports for now the following builtins :
 
 - cd -  change the directory.
 - echo - Arguments are printed on the standard output.
 
 
+
+
+
+
+Peer Project made within 15 days.
 ### Authors
 
 * Rim Joudi  - (https://github.com/RimJoudi)
