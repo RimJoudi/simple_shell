@@ -24,7 +24,7 @@ To use our shell you simply need to:
 `$ git clone https://github.com/maroua199525/simple_shell.git`
 
 
--  Change directory to simple_shell
+-   Change directory to simple_shell
 
 `$ cd simple_shell/`
 
@@ -38,7 +38,7 @@ To use our shell you simply need to:
 
 -  To exit the program, run:
 
-`Ctrl+D`
+`$ Ctrl+D`
 
 - To compile the man page:
 
@@ -64,6 +64,8 @@ To use our shell you simply need to:
 - wait (man 2 wait)
 - waitpid (man 2 waitpid)
 - write (man 2 write)
+
+
 
 
 
@@ -99,14 +101,6 @@ To use our shell you simply need to:
 |_strdup   |  Duplicates a string |
 |  _strcat |Concatenates two strings  |
 
-### Annotations
-
-We have writen a [blog post](https://joudirim93.medium.com/what-happens-when-you-type-ls-l-c-in-the-shell-8ed10196d711 "what happens when typing ls -l *.c and hit enter in shell")  describing what happens when typing ls -l *.c and hit Enter in  shell using examples and detailing all different processes.
-Feel free to check it.
-
-
-
-
 ###Examples:
 
 ###### Example 1
@@ -116,7 +110,7 @@ Feel free to check it.
 ```
 vagrant@vagrant:~/simple_shell$ ./hsh
 $ ls
-AUTHORS    README.md~  built_in.c  find_path.c  hsh         parser_line.c  readline.c~  shell.h README.md  _getenv.c   execute.c   function.c   more_fun.c  readline.  shell        simple_shell.c
+AUTHORS   built_in.c  find_path.c  hsh  parser_line.c  shell.h README.md  _getenv.c   execute.c   function.c   more_fun.c  readline.c shell  simple_shell.c
 $
   ```
 
@@ -127,7 +121,7 @@ vagrant@vagrant:~/simple_shell$ ./hsh
 $ pwd
 /home/vagrant/simple_shell
 $ ^D
-~$
+vagrant@vagrant:~/simple_shell$
 
 ######Example 3
 
@@ -144,8 +138,7 @@ vagrant@vagrant:~/simple_shell$
 ###Testing
 When testing our shell (hsh) works like this;
 
-- in interactive mode:
-
+** 1. In interactive mode:**
 
 ```
 $ ./hsh
@@ -153,7 +146,7 @@ $ ./hsh
 hsh main.c shell.c
 ($)
 ($) exit
-$
+ $
  ```
 
 
@@ -161,7 +154,9 @@ $
 
 
 
--  In non-interactive mode:
+** 2. In non-interactive mode:**
+
+###### *Example 1*
 
 ```
 $ echo "/bin/ls" | ./hsh
@@ -169,14 +164,22 @@ hsh main.c shell.c test_ls_2
 $
 $ cat test_ls_2
 /bin/ls
-bin/ls
+/bin/ls
 $
+	  ```
 
+
+------------
+
+###### *Example 2*
+
+```
 $ cat test_ls_2 | ./hsh
 hsh main.c shell.c test_ls_2
 hsh main.c shell.c test_ls_2
 $
-		   ```
+	```
+
 
 
 ### Known bugs :
@@ -184,7 +187,10 @@ Our shell (hsh) for now don't support  builtins such as cd , echo , exit...
 and don't handle  the && and || shell logical operators.
 
 
+### Annotations
 
+We have writen a [blog post](https://joudirim93.medium.com/what-happens-when-you-type-ls-l-c-in-the-shell-8ed10196d711 "what happens when typing ls -l *.c and hit enter in shell")  describing what happens when typing ls -l *.c and hit Enter in  shell using examples and detailing all different processes.
+Feel free to check it.
 
 
 
@@ -196,6 +202,7 @@ Peer Project made within 15 days.
 * Rim Joudi  - (https://github.com/RimJoudi)
 
 * Maroua Alaya  - (https://github.com/maroua199525)
+
 
 [![Holberton school](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8g8Cvqw9Z7Rx9IHGq9gKYneeM1U4_KvUNTeaCBkX2L5pFE3Ihw-5uNGs9xPSmUb5kXA&usqp=CAU)](https://www.
 holbertonschool.com/tn/en/ "Holberton school")
