@@ -1,6 +1,6 @@
 #include "shell.h"
 /**
- * exec_cmd - execve the comands from line.
+ * exec_cmd - execve the comands from input.
  * @array: Command to execute.
  * Return: 0.
  */
