@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
-* sig_handler - checks if Ctrl C is pressed
+* sig_handler - checks if Ctrl C is pressed by the input
 * @signum: int
 *Return: void
 */
