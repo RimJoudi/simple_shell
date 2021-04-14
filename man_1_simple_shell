@@ -1,0 +1,92 @@
+.TH simple_shell "1" "14 April 2021" "Simple Shell Man Page"
+
+.SH NAME
+.B simple_shell - Our command-line interpreter (mirroring the sh bourne shell)
+
+.SH SYNOPSIS
+.B  ./hsh
+[command] [options] [FILE]
+
+
+.SH DESCRIPTION
+This project consists on creating a simple UNIX command interpreter and it's a recreation a of the command-line interpreter (shell).
+
+.SH USAGE
+To use our shell you simply need to:
+
+.TP
+.B Clone the repository
+$ git clone https://github.com/maroua199525/simple_shell.git
+
+.TP
+.B Change directory to simple_shell
+$ cd simple_shell/
+
+.TP
+.B Compile with the following:
+$ gcc -Wall -Werror -Wextra -pedantic *.c -o hsh
+
+.TP
+.B Once compiled, to start the program, run:
+$ ./hsh
+
+.TP
+.B To exit the program:
+$ Ctrl+D
+
+
+.PP
+.SH Overview
+The shell is a command interpreter that reads lines from input and interprets them, and generally executes other commands.
+
+.SH Invocation
+Typically the shell will be run in interactive mode where input is accepted from
+the keyboard.
+
+In non-interactive mode, the shell is run from a script or
+something similar.This subshell only opens when the script is executed and
+subsequently closes once the script is finished.
+
+.SH Simple_shell return
+A new prompt "$ " waiting for a new command.
+
+.SH Examples
+
+.TP
+$./shell
+.PP
+$pwd
+
+.TP
+vagrant@vagrant:~/simple_shell$ ./shell
+.PP
+$ pwd
+.PP
+/home/vagrant/simple_shell
+$
+
+$/bin/pwd
+.PP
+vagrant@vagrant:~/simple_shell$~$
+$
+
+.SH BUGS
+Our shell (hsh) for now don't support  builtins such as cd , echo , exit...
+And don't handle  the && and || shell logical operators.
+
+
+.SH CREDITS
+.PP
+This man page is created as a project to recreate the unix command line interpreter mirroriong the bourne shell (sh) for Holberton school.
+<https://www.holbertonschool.com/tn/en>
+
+
+.SH "SEE ALSO"
+man sh
+.PP
+man bash
+
+.SH AUTHORS
+Rim Joudi <2622@holbertonschool.com>
+.PP
+Marwa Alaya <2646@holbertonschool.com>
