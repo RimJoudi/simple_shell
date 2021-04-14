@@ -101,15 +101,16 @@ To use our shell you simply need to:
 |_strdup   |  Duplicates a string |
 |  _strcat |Concatenates two strings  |
 
-###Examples:
+Examples:
 
 ###### Example 1
 
 
 
 > vagrant@vagrant:~/simple_shell$ ./hsh
+
 $ ls
-AUTHORS    README.md~  built_in.c  find_path.c  hsh         parser_line.c  readline.c~  shell.h README.md  _getenv.c   execute.c   function.c   more_fun.c  readline.c shell        simple_shell.c
+AUTHORS   built_in.c  find_path.c  hsh   parser_line.c   shell.h  README.md  _getenv.c   execute.c   function.c   more_fun.c  readline.c     shell        simple_shell.c
 $
 
 
@@ -117,8 +118,11 @@ $
 ###### Example 2
 
 > vagrant@vagrant:~/simple_shell$ ./hsh
+
 >  $ pwd
+
 >  /home/vagrant/simple_shell
+
 >   $ ^D
 
 
@@ -126,6 +130,7 @@ $
 
 
 >   vagrant@vagrant:~/simple_shell$ ./hsh
+
 $ ls -l /tmp
 total 4
 drwx------ 3 root root 4096 Apr 14 08:14 systemd-private-c8b594543b954c10b9ad1732d559d671-systemd-resolved.service-SYzIKI
